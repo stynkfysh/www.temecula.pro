@@ -58,7 +58,7 @@ img{max-width:100%;height:auto;display:block}
 
 /* Hero */
 .hero{position:relative;color:#fff;overflow:hidden;
-  background:linear-gradient(120deg,var(--wine-deep) 0%,var(--wine) 55%,var(--wine-soft) 100%)}
+  background:linear-gradient(120deg,rgba(63,20,41,.93) 0%,rgba(90,31,61,.84) 45%,rgba(122,46,82,.66) 100%),url("images/hero.jpg") center/cover no-repeat}
 .hero-overlay{position:absolute;inset:0;opacity:.5;
   background:radial-gradient(900px 400px at 80% -10%,rgba(200,160,74,.45),transparent 60%),
   url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><path d='M0 39 L40 39' stroke='%23ffffff' stroke-opacity='0.05'/></svg>")}
