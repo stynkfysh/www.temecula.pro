@@ -230,3 +230,9 @@ img{max-width:100%;height:auto;display:block}
   .foot-grid{grid-template-columns:1fr}
   .field-row{grid-template-columns:1fr}
 }
+
+/* The paragraph is white on the dark band, but its inline links still picked up
+   the dark brand colour from the global `a` rule (~1.3:1). Buttons live in
+   .cta-row, not in <p>, so they are unaffected. */
+.cta-band p a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.cta-band p a:hover{color:#fff;opacity:.85}
